@@ -1,7 +1,8 @@
+require_relative 'produto'
+
 class Mercado
-  def initialize (produto, preco)
+  def initialize (produto)
     @produto = produto
-    @preco = preco
   end
 
   def comprar
